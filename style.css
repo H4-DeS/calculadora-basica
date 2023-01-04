@@ -1,0 +1,75 @@
+.cabecalho_titulo {
+  display: inline-block;
+  border: 2px solid #888888;
+  padding: 1px 190px;
+  border-radius: 15px;
+ }
+
+.cabecalho {
+  font-family: Arial;
+  color: #666666;
+  text-align: center;
+  padding-bottom: 24px;
+   
+}
+
+body {
+  background-color: #EEEEEE;
+  font-family: sans-serif;
+  color: #DDDDDD;
+}
+
+.frame_principal {
+  display: flex; 
+  justify-content: center;
+  align-content: center;
+  
+ }
+
+.calculadora {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #888888;
+  padding: 40px;
+  background-color: #DFDFDF;
+   
+}
+
+.display_calculadora {
+  border: 1px solid #666666;
+  border-bottom: none;
+  border-radius: 5px;
+  height: 8rem;
+  text-align: right;
+ }
+
+.display_calculadora h3 {
+  font-size: 56px;
+  font-family: sans-serif;
+  color: #000000;
+  margin-top: 50px;
+}
+
+.teclado_calculadora {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  
+  width: 100%;
+  height: 100%;
+}
+
+.teclado_calculadora--tecla {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #BBBBBB;
+    width: 100px;
+    height:100px;
+  
+}
+
+.tecla_num {
+  background-color: #EEEEEE;
+}
