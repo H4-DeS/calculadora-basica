@@ -11,4 +11,6 @@
 <p>Créditos para a instrutora da <a href="https://www.alura.com.br/">Alura</a> --- <a href="https://github.com/rafaballerini">@rafaballerini</a></p>
 
 <h2>Demonstração</h2>
-![GIF de demonstração do uso da calculadora](https://github.com/H4-DeS/calculadora-basica/blob/main/css/preview.gif)
+<p align="center">
+<img src="https://raw.githubusercontent.com/H4-DeS/calculadora-basica/main/css/preview.gif" alt="GIF de demonstração do uso da calculadora" >
+</p>
